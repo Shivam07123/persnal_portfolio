@@ -1,7 +1,5 @@
-
-import './App.css';
-
 import React, { useEffect } from 'react';
+import './App.css';
 
 function App() {
   useEffect(() => {
@@ -46,19 +44,21 @@ function App() {
             <a href="#"><i className='bx bxl-twitter'></i></a>
             <a href="https://www.instagram.com/__shivam_07___?igsh=eG1odWF5bXppajE0"><i className='bx bxl-instagram'></i></a>
             <a href="#"><i className='bx bxl-youtube'></i></a>
-            <a href="www.linkedin.com/in/shivam-harimkar-235009298/"><i className='bx bxl-linkedin'></i></a>
+            <a href="https://www.linkedin.com/in/shivam-harimkar-235009298"><i className='bx bxl-linkedin'></i></a>
           </div>
           <a href="/assets/cv.pdf" className="btn" download>Download CV</a>
         </div>
         <div className="home-img">
-          <img src="/assets/images/profile.jpeg" alt="profile" />
+          {/* <img src="/assets/images/profile.jpeg" alt="profile" /> */}
+          <img src={`${process.env.PUBLIC_URL}/assets/images/profile.jpeg`} />
+
         </div>
       </section>
 
       {/* About Section */}
       <section className="about" id="about">
         <div className="about-img">
-          <img src="/assets/images/about.jpeg" alt="about" />
+          <img src={`${process.env.PUBLIC_URL}/assets/images/about.jpeg`} alt="about" />
         </div>
         <div className="about-content">
           <h2 className="heading">About <span>Me</span></h2>
@@ -99,7 +99,7 @@ function App() {
         <div className="portfolio-container">
           {['port1.jpg', 'port2.jpg', 'port3.jpg', 'port4.jpg', 'port5.jpg'].map((img, idx) => (
             <div className="portfolio-box" key={idx}>
-              <img src={`/assets/images/${img}`} alt={`portfolio-${idx}`} />
+              <img src={`${process.env.PUBLIC_URL}/assets/images/${img}`} alt={`portfolio-${idx}`} />
               <div className="portfolio-layer">
                 <h4>Project {idx + 1}</h4>
                 <p>Some description of the project goes here.</p>
