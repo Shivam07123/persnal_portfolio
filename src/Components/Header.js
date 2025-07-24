@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 function Header() {
   useEffect(() => {
@@ -19,6 +19,7 @@ function Header() {
   return (
     <header className="header">
       <a href="#" className="logo">
+        {/* <i className="bx bx-code-alt me-2 text-primary"></i> */}
         Shivam | Full Stack Dev
       </a>
       <i className="bx bx-menu" id="menu-icon"></i>

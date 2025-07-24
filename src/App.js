@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import Skills from "./Skills";
-import Profile from "./Profile";
-import About from "./About";
-import Header from "./Header";
-import Footer from "./Footer";
-import Contact from "./Contact";
-import Service from "./Service";
-import Portfolio from "./Portfolio";
+import React from "react";
+import Skills from "./Components/Skills";
+import Profile from "./Components/Profile";
+import About from "./Components/About";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
+import Service from "./Components/Service";
+import Portfolio from "./Components/Portfolio";
 import "./App.css";
 
 function App() {

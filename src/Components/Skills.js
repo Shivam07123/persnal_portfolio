@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 
 function Skills() {
   return (
@@ -10,7 +9,6 @@ function Skills() {
         <p className="section-subtitle">
           The technologies I use to bring ideas to life.
         </p>
-
         <div className="row gy-4 justify-content-center">
           {/* Programming Languages */}
           <div className="col-md-5 col-lg-4">
@@ -28,7 +26,8 @@ function Skills() {
                     <i className="devicon-python-plain colored me-1"></i> Python
                   </span>
                   <span className="badge badge-skill">
-                    <i className="devicon-cplusplus-plain colored me-1"></i> C++
+                    <i className="devicon-postgresql-plain colored me-1"></i>{" "}
+                    SQL
                   </span>
                   <span className="badge badge-skill">
                     <i className="devicon-javascript-plain colored me-1"></i>{" "}
@@ -114,6 +113,36 @@ function Skills() {
                 <div className="badge-container justify-content-center">
                   <span className="badge badge-skill">
                     <i className="devicon-mysql-plain colored me-1"></i> MySQL
+                  </span>
+                  <span className="badge badge-skill">
+                    <i className="bi bi-window-desktop me-1 text-info"></i>{" "}
+                    MySQL Workbench
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-5 col-lg-4">
+            <div className="card skill-card h-100">
+              <div className="card-body">
+                <h5 className="card-title">
+                  <i className="bi bi-people-fill me-2 text-primary"></i>
+                  Soft Skills
+                </h5>
+                <div className="badge-container justify-content-center">
+                  <span className="badge badge-skill">
+                    <i className="bi bi-chat-dots me-1"></i> Effective
+                    Communication
+                  </span>
+                  <span className="badge badge-skill">
+                    <i className="bi bi-lightbulb me-1"></i> Problem-Solving
+                  </span>
+                  <span className="badge badge-skill">
+                    <i className="bi bi-award me-1"></i> Leadership
+                  </span>
+                  <span className="badge badge-skill">
+                    <i className="bi bi-clock-history me-1"></i> Time Management
                   </span>
                 </div>
               </div>
