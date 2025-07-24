@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/persnal_portfolio/static/css/main.273f2df3.css",
-    "main.js": "/persnal_portfolio/static/js/main.15361a21.js",
+    "main.css": "/persnal_portfolio/static/css/main.0fb1d01f.css",
+    "main.js": "/persnal_portfolio/static/js/main.05b2a1fb.js",
     "static/js/453.5ae3748a.chunk.js": "/persnal_portfolio/static/js/453.5ae3748a.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/persnal_portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/persnal_portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/fa-solid-900.woff2": "/persnal_portfolio/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
+    "static/media/fa-brands-400.woff2": "/persnal_portfolio/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
+    "static/media/fa-regular-400.woff2": "/persnal_portfolio/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
+    "static/media/fa-v4compatibility.woff2": "/persnal_portfolio/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
     "index.html": "/persnal_portfolio/index.html",
-    "main.273f2df3.css.map": "/persnal_portfolio/static/css/main.273f2df3.css.map",
-    "main.15361a21.js.map": "/persnal_portfolio/static/js/main.15361a21.js.map",
+    "main.0fb1d01f.css.map": "/persnal_portfolio/static/css/main.0fb1d01f.css.map",
+    "main.05b2a1fb.js.map": "/persnal_portfolio/static/js/main.05b2a1fb.js.map",
     "453.5ae3748a.chunk.js.map": "/persnal_portfolio/static/js/453.5ae3748a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.273f2df3.css",
-    "static/js/main.15361a21.js"
+    "static/css/main.0fb1d01f.css",
+    "static/js/main.05b2a1fb.js"
   ]
 }
