@@ -16,14 +16,14 @@ function Profile() {
         </div>
 
         {/* === Short Description === */}
-        <p>
+        <p className="fw-bold">
           Welcome to my portfolio! I build robust and responsive web applications using{" "}
           <strong>Java, Spring Boot, Angular, and React</strong>. Let’s build something impactful together!
         </p>
 
         {/* === Expandable Content === */}
         {showMore && (
-          <div className="extended-content">
+          <div className="extended-content fw-bold">
             <p>
               I’m a passionate and results-driven <strong>Full Stack Developer</strong> with 1+ years
               of hands-on experience in designing, developing, and deploying robust web applications.

@@ -18,7 +18,7 @@ function Header() {
   }, []);
   return (
     <header className="header">
-      <a href="#" className="logo">
+      <a href="#" className="logo fw-bold">
         {/* <i className="bx bx-code-alt me-2 text-primary"></i> */}
         Shivam | Full Stack Dev
       </a>

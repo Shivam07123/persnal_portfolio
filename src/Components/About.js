@@ -10,16 +10,16 @@ function About() {
           alt="about"
         />
       </div>
-      <div className="about-content">
-        <h2 className="heading">
+      <div className="about-content fw-bold">
+        <h2 className="heading fw-bold">
           About <span>Me</span>
         </h2>
-        <h3>Full Stack Developer</h3>
-        <p>
+        <h3 className="fw-bold">Full Stack Developer</h3>
+        <p className="fw-bold">
           I specialize in both <strong>frontend and backend development</strong>
           , bringing ideas to life through clean code and intuitive interfaces.
           {showAboutMore && (
-            <>
+            <div className="fw-bold">
               {" "}
               At <strong>FlynautSaas Pvt. Ltd</strong>, I contributed to major
               modules like <strong>dock management</strong>,{" "}
@@ -31,7 +31,7 @@ function About() {
               flows like <strong>forgot password with email reset links</strong>
               . My goal is to create meaningful digital solutions that solve
               real-world problems.
-            </>
+            </div>
           )}
         </p>
         <a

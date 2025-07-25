@@ -8,6 +8,7 @@ import Contact from "./Components/Contact";
 import Service from "./Components/Service";
 import Portfolio from "./Components/Portfolio";
 import "./App.css";
+import Experience from "./Components/Experience";
 
 function App() {
  
@@ -15,8 +16,9 @@ function App() {
     <>
       <Header/>
       <Profile />
-      <About/>
       <Service/>
+      <About/>
+      <Experience/>
       <Portfolio/>
       <Skills />
       <Contact/>

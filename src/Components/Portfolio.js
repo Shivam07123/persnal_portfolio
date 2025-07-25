@@ -3,10 +3,10 @@ import React from 'react'
 function Portfolio() {
   return (
     <section className="portfolio" id="portfolio">
-        <h2 className="heading">
+        <h2 className="heading fw-bold">
           Latest <span>Projects</span>
         </h2>
-        <div className="portfolio-container">
+        <div className="portfolio-container fw-bold">
           {[
             {
               img: "port1.jpg",
