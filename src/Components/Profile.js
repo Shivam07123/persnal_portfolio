@@ -68,7 +68,14 @@ function Profile() {
         </div>
 
         {/* === Resume Download === */}
-        <a href="/assets/cv.pdf" className="btn" download style={{ marginTop: "1rem" }}>
+        <a
+          href={`${process.env.PUBLIC_URL}/assets/cv.pdf`}
+          className="btn"
+          download="ShivamHarimkar_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ marginTop: "1rem" }}
+        >
           <i className="bx bx-download" style={{ marginRight: "6px" }}></i>
           My Resume
         </a>
